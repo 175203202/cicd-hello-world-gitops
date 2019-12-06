@@ -17,7 +17,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: "$({ .imageName })"
+      - image: "dockeryaodi/hello-world@sha256:a5db7bd376f12c991e8c4de6914052498fe7c8d0b2b2a18b4a589010fd9702f7"
         name: hello-world
         ports:
         - containerPort: 8080
